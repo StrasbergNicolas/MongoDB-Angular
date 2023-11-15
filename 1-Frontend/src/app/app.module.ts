@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { ListProductComponent } from './list-product/list-product.component';
 import { AddEditProductComponent } from './add-edit-product/add-edit-product.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListProductComponent,
-    AddEditProductComponent
+    AddEditProductComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
